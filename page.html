@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Vipul Johri</title>
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400italic,100,300,700,800,400' rel='stylesheet' type='text/css'>
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/_bower.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.mini.css"  media="screen,projection"/>
+    <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <script src="js/_bower.js"></script>
+    <script src="js/_functions.js"></script>
+    <script src="js/scripts.js"></script>
+    <style type="text/css">
+    a { color: inherit; }
+    </style>
+</head>
+
+<body>
+    <!-- Document Start
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="js/parallax.js"></script>
+
+    <div class="bg-header"></div>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="backgroundImage"></div>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a class="brand-logo text-logo" href="#splash" data-dialog="test">VIPUL<b>JOHRI</b></a>
+                    <ul id="nav-mobile" class="right thin">
+                        <li><a class="thin" href="#me">ME</a></li>
+                        <li><a class="thin" href="#proj">PROJECTS</a></li>
+                        <li><a class="thin" href="#contact">CONTACT</a></li>
+                        <li><a class="thin" target="_blank" href="resume.pdf">RESUME</a></li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="splash" class="img-holder-0" data-image-m="images/bghome3.jpg" data-image-xl="images/bghome3.jpg"  data-image-l="images/bghome3.jpg" data-cover-ratio="1">
+        <div class="container header-container hide-on-med-and-down" style="-webkit-transform: translateZ(1px)">
+            <div class="text-center text-white header" style="-webkit-transform: translateZ(1px)">
+                <h2><b>Hi! I'm Vipul</b></h2>
+                <h5 class="weight-300">I am a Developer and Tech Enthusiast</h5>
+            </div>
+        </div>
+    </div>
+    <script>
+        var touch;
+        if ($('body').width() < 992 || Modernizr.touch) {
+            touch = true;
+        } else {
+            touch = false;
+        }
+        //Parallax
+        $('.img-holder-0').imageScroll({
+            imageAttribute: 'image-' + windowSize($window.width()),
+            touch: touch,
+            holderMinHeight: 500,
+            speed: 0.1
+        });
+    </script>
+
+    <div id="me" class="section white">
+    <br><br>
+        <div class="section-link visible">
+                <!-- Filmmaking Section
+                  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                <div class="inner-section-link">
+
+                        <div class="sectionSlider aboutSlider" style="width: 1524px;">
+                            <ul style="width: 3048px;">
+                                <li class="current" style="width: 1524px;">
+                                    <div class="container">
+
+                                        <div class="row">
+                                            <div class="col l8">
+                                                <div class="row">
+                                                    
+                                                        <h2 class="weight-100" style=" text-shadow: 2px 2px 4px #000000;"><b>WHO I AM</b></h2>
+                                                        <!-- Item -->
+                                                        <div class="row">
+                                                            <div class="col s10 m12 offset-s1 l12 animatedBox animatedBox-left">
+                                                                <p class="non-fluid weight-300">
+                                                                    I'm  Vipul Johri and currently a second year undergraduate at Manipal Institute of Technology, Manipal.
+                                                                    <br>
+                                                                    <br> I'm currently pursuing my Btech in Information Technology
+                                                                    <br>
+                                                                    <br> 
+                                                                    <br>
+                                                                </p>
+                                                                
+                                                                <br>
+                                                            </div>
+                                                    </div>
+                                                    <!-- <div class="col l3 hide-on-med-and-down animatedBox animatedBox-right">
+                                                        
+                                                    </div> -->
+                                                </div>
+
+                                                <div class="row">
+                                                
+                                                        <h2 class="weight-100" style=" text-shadow: 2px 2px 4px #000000;"><b>MY INTERESTS</b></h2>
+                                                        <!-- Item -->
+                                                        <div class="row">
+                                                            <div class="col s10 m12 offset-s1 l12 animatedBox animatedBox-left">
+                                                                <p class="non-fluid weight-300">
+                                                                    &middot; Software Development
+                                                                    <br>
+                                                                    &middot; Web Development
+                                                                    <br>
+                                                                    &middot; App Development
+                                                                    <br>
+                                                                    &middot; Data Structures and Algorithms
+                                                                    <br>
+                                                                </p>
+                                                                <br>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                </div>
+
+                                            </div>
+                                            <div class="col l4">
+                                                <img src="images/me.jpg" class="circle responsive-img">
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/tp.jpg"></div>
+    </div>
+
+    
+    <div id="proj" class="section white">
+    <br><br>
+        <div class="section-link visible">
+                <!-- Filmmaking Section
+                  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                <div class="inner-section-link">
+
+                        <div class="sectionSlider aboutSlider" style="width: 1524px;">
+                            <ul style="width: 3048px;">
+                                <li class="current" style="width: 1524px;">
+                                    <div class="container">
+
+                                        <div class="row">
+                                            <h2 class="weight-100" style=" text-shadow: 2px 2px 4px #000000;"><b>PROJECTS</b></h2>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col s12 m6 l6">
+                                              <div class="card white darken-1">
+                                                <div class="card-content black-text">
+                                                  <span class="card-title" style="color: black">Mircrosoft Code.Fun.Do( Garbage Collector)</span>
+                                                      <p>A software that gives the location of the place and its image where garbae is being dumped.</p>
+                                                      <p>Using Google Map APIs and Java, camera of a phone captures the image of the place where the garbage is dumped. App also allow the the user to save the location where the image is clicked. That location is sent to the concerned autohrities and thus authorities arrive and collect the garbage.</p>
+                                                      <p>This app thus greatly reduces the anount of garbage dumped to make the city cleaner. </p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col s12 m6 l6 top">
+                                              <div class="card white darken-1">
+                                                <div class="card-content black-text">
+                                                  <span class="card-title" style="color: black">Number Plate Scanner</span>
+                                                      <p>Project using Java, Image Processing captures number plate from the image and display relevant details by running the number against the database.</p>
+                                                      <p>Using Image Processing and Machine Learning alng with Java and SQL, image containing the vehicle number plate is feed into the software. Software identifies the image location and scans the number plate from the image. It then display all relevant details of the owner from the number plate extracted from the number plate from the database</p>
+                                                      <p>This will allow the traffic to extract vehicle owner details by just capturing the image if the owner violates the traffic rules and thus the software will greatly reduce the amount of traffic law breakers in the country</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col s12 m6 l6">
+                                              <div class="card white darken-1">
+                                                <div class="card-content black-text">
+                                                  <span class="card-title" style="color: black">Food Management</span>
+                                                      <p>Using Java, SQL, student select their preferences of meal from the choices given by the chef, and meal 
+                with most number of votes is prepared for the day .</p>
+                                                      <p>This is eventually reduce the amount of food 
+                wastage in the college as well as provide healthy and prefereable food to the students.</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                           
+                                        </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                </div>
+        </div>
+    </div>
+    
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/view.jpg"></div>
+    </div>
+
+    <div id="contact" class="section white">
+        <div class="section-link visible">
+ <div class="sectionSlider aboutSlider" style="width: 1524px;">
+                            <ul style="width: 3048px;">
+                                <li class="current" style="width: 1524px;">
+                                    <div class="container">
+                                        <div class="row">    
+                                               <h2 class="weight-100" style=" text-shadow: 2px 2px 4px #000000;"><b>CONTACT ME</b></h2>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                    <div class="col l1 center"><a href="https://facebook.com/vipul.johri1212"><img src="https://image.flaticon.com/icons/svg/69/69407.svg"><i class="fa fa-facebook"></i></a></div>     
+                                                    <div class="col l1 center"><a href="https://in.linkedin.com/in/"><i class="fa fa-linkedin"><img src="https://image.flaticon.com/icons/svg/145/145807.svg"></i></a></div>
+                                                      
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul
+                        </div>>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        //Parallax
+        $(document).ready(function(){
+              $('.parallax').parallax();
+              $('ul.tabs').tabs();
+                });
+    </script>
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
